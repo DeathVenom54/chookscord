@@ -16,7 +16,7 @@ const token = Joi.string()
   .required()
 
 const intents = Joi.array()
-  .items(Joi.string())
+  .items(Joi.number())
   .required()
 
 const clientOptions = Joi.object({
